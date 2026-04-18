@@ -34,3 +34,13 @@ Name: dev-master
 Value: Your MASTER_KEY password in your ENV file.
 ```
 After submitting the header, auth controls on the project will be bypassed and you will be considered logged in as admin.
+
+## !!!Attention!!!
+
+By using this plugin you are assumed to be aware of:
+
+- This is not a hacking tool or malicious software.
+- This add-on is intended to log in with "developer" authority on the project during long-term technical support after project delivery.
+- The user is responsible for using this plug-in for purposes other than its intended purpose; the plug-in developer cannot be held responsible for any data loss, legal liability or security vulnerabilities that may occur.
+- Anyone using this plug-in must know and accept that this plug-in is publicly available and open source under the MIT license and that anyone can use it and access it by reverse engineering.
+- Since this plugin is not malicious software or a hacking tool, there is no encryption or code obfuscation.
