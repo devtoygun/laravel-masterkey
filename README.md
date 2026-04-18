@@ -19,3 +19,18 @@ You can install the package via composer:
 
 ```bash
 composer require devtoygun/laravel-masterkey
+```
+
+## Usage
+
+Add a new key named ```MASTER_KEY``` to your project's .ENV file. 
+
+The password you set for this key is your MASTER password.
+
+After your project is completed, open any header editor tool and run it with these values:
+
+```bash
+Name: dev-master
+Value: Your MASTER_KEY password in your ENV file.
+```
+After submitting the header, auth controls on the project will be bypassed and you will be considered logged in as admin.
